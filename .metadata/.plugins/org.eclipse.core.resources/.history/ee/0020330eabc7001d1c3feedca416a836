@@ -1,0 +1,7 @@
+package com.psa.runner;
+
+import org.springframework.boot.CommandLineRunner;
+
+public class MyRunner implements CommandLineRunner {
+
+}

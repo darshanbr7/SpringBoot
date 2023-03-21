@@ -1,0 +1,10 @@
+package com.psa.beans;
+
+public class HelloBean {
+	
+	public void sayHello() {
+		
+		System.out.println("GM");
+	}
+
+}
