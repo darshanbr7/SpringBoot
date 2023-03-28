@@ -1,7 +1,0 @@
-package com.example.Hellobeans;
-
-public class HelloBeans {
-    public void  SayHello() {
-    	System.out.println("java application");
-    }
-}
