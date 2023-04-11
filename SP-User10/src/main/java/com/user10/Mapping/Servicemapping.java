@@ -18,7 +18,7 @@ public class Servicemapping {
 	@Autowired
 	ProductService psev;
 	
-	@GetMapping("/getproduct")
+	@GetMapping("/get")
 	public List<Product> productlist(){
 		return psev.getProduct();
 	}
@@ -33,9 +33,6 @@ public class Servicemapping {
 			return psev.getname();
 		}
 	
-	@PutMapping("/update")
-	public void updatename(@RequestBody Product product) {
-		psev.updatename(product);
-	}
+	
 }
 

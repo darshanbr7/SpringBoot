@@ -21,7 +21,5 @@ public class ProductService {
 	public List<Product> getname(){
 		return prepo.getname("darshan");
 	}
-	public void  updatename(Product name){
-		prepo.updatename("iphone");
-	}
+	
 }

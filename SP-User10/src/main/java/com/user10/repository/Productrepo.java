@@ -14,7 +14,5 @@ public interface Productrepo extends JpaRepository<Product, Integer> {
 	@Query("Select e  from  Product e where e.name=?1")
 	List<Product> getname(String name);
 	
-	@Modifying
-	@Query("update e from the Product e where e.name=?1")
-    List<Product> updatename(String name);
+	
 }

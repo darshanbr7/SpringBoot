@@ -7,15 +7,19 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Employee {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String name;
 	private long  sal;
-	public int getId() {
+	public Employee() {
+		super();
+	}
+	public Employee getId(Integer id) {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId( Integer id) {
 		this.id = id;
 	}
 	public String getName() {
@@ -30,6 +34,7 @@ public class Employee {
 	public void setSal(long sal) {
 		this.sal = sal;
 	}
+	
 	
 
 }
